@@ -21,8 +21,6 @@ add_executable(Battle_for_the_Kingdom
         include/Map.h
         src/Obstacle.cpp
         include/Obstacle.h
-        src/ObstacleManager.cpp
-        include/ObstacleManager.h
         src/Warrior.cpp
         include/Warrior.h
         src/System.cpp
