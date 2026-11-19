@@ -24,4 +24,6 @@ add_executable(Battle_for_the_Kingdom
         src/ObstacleManager.cpp
         include/ObstacleManager.h
         src/Warrior.cpp
-        include/Warrior.h)
+        include/Warrior.h
+        src/System.cpp
+        include/System.h)
