@@ -3,3 +3,19 @@
 //
 
 #include "../include/System.h"
+
+#include <iostream>
+
+int System::randomSeed = static_cast<int>(random_device{}());
+
+System::System() : seed(randomSeed), obstacles(defaultNumObstacles, seed) {
+
+}
+
+void System::printMap() const {
+    cout << map.getMapStr(obstacles.getObstacles());
+}
+
+void System::runProcess() {
+    printMap();
+}

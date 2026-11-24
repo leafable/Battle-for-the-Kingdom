@@ -7,6 +7,7 @@ include_directories(include)
 include_directories(src)
 
 add_executable(Battle_for_the_Kingdom
+        src/main.cpp
         src/Archer.cpp
         include/Archer.h
         src/Character.cpp
@@ -19,8 +20,8 @@ add_executable(Battle_for_the_Kingdom
         include/Mage.h
         src/Map.cpp
         include/Map.h
-        src/Obstacle.cpp
-        include/Obstacle.h
+        src/Obstacles.cpp
+        include/Obstacles.h
         src/Warrior.cpp
         include/Warrior.h
         src/System.cpp
